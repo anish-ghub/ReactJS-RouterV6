@@ -1,0 +1,20 @@
+npm install react-router-dom@6
+
+Switch -> Routes
+<Route element={<Component/>} />
+exact Don't needed Best match Automatically
+activeClassName Changed
+
+Redirect->Navigate (replace -> Pervious Gone/to ->Push )
+
+/* starts with /welcome
+For Nested Routes Relative Matching /welcome/ not needed
+
+Outlet : Tells where Nested Route Placed 
+
+useHistory -> useNavigate
+    const navigate = useNavigate();
+    navigate('/welcome', {replace : true} );
+    1 Forward, -1 Pervious Page, -2 Page before Previous Page
+
+
